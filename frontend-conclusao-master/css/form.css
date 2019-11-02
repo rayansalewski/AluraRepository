@@ -1,0 +1,41 @@
+.form-cadastro .title-form {
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: salmon;
+    margin: 20px;
+}
+
+.content-form {
+    width: 96%;
+    padding: 20px;
+}
+
+.content-form form {
+    display: flex;
+    flex-flow: column;
+}
+
+.content-form label {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.content-form input {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+    font-size: 20px;
+    padding: 5px;
+}
+
+.content-form button {
+    width: 250px;
+    margin: 20px auto 40px auto;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #48A2A6; 
+    font-size: 1.3em;
+    color: white;
+}

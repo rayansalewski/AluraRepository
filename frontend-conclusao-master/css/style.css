@@ -1,0 +1,102 @@
+.header {
+	background: url(../img/destaque.jpeg) no-repeat;
+	background-size: cover;
+	padding-top: 2em;
+}
+
+.header .menu-cabecalho {
+	width: 70%;
+	margin: auto;
+}
+
+.header .menu-cabecalho .content-menu {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.header .menu-cabecalho .content-menu li {
+	margin: 2px
+}
+
+.header .menu-cabecalho .content-menu a{
+	background-color: rgba(0, 0, 0, 0.108);
+	border-radius: 4px; 
+	padding: 0.6em;
+	font: 1em sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+.header .menu-cabecalho .content-menu a:hover{
+	background-color: #48A3A6;
+}
+.content-titulo {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.content-titulo .titulo {
+	font: 4em sans-serif;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.452) 2px 2px 2px;
+}
+
+.content-titulo .data-titulo {
+	font: 4em sans-serif;
+	color: lightgreen;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.452) 2px 2px 2px;
+}
+
+@media only screen and (max-width: 600px) {
+	.content-titulo .titulo {
+		font-size: 2.5em;
+	}
+
+	.content-titulo .data-titulo {
+		font-size: 2.5em;
+	}
+}
+
+.buttom-subscribe {
+	margin: 20px auto;
+	color: #FFF;
+	background-color: #48A3A6;
+	border-radius: 4px; 
+	padding: 0.6em;
+	font: 1.5em sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-shadow: rgba(0, 0, 0, 0.247) 3px 3px 3px;
+}
+
+.content-info .title-info {
+	margin-top: 20px; 
+	font: 2em bold;
+	text-align: center;
+}
+
+.content-info .info-date {
+	font: 1.5em bold;
+	text-align: center;
+}
+
+.info {
+	margin: 20px auto 0;
+	width: 90%;
+}
+
+.info p {
+	letter-spacing: 1px;
+	font: 1em bold;
+	text-align: center;	
+}
